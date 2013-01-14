@@ -13,6 +13,7 @@
 		EFB349B816A3F39400FD0D52 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EFB349B616A3F39400FD0D52 /* Credits.rtf */; };
 		EFB349BB16A3F39400FD0D52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB349BA16A3F39400FD0D52 /* AppDelegate.m */; };
 		EFB349BE16A3F39500FD0D52 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB349BC16A3F39500FD0D52 /* MainMenu.xib */; };
+		EFB349C516A3F3A200FD0D52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB349C416A3F3A200FD0D52 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EFB349B916A3F39400FD0D52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFB349BA16A3F39400FD0D52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFB349BD16A3F39500FD0D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EFB349C416A3F3A200FD0D52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB349C516A3F3A200FD0D52 /* WebKit.framework in Frameworks */,
 				EFB349A816A3F39400FD0D52 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		EFB3499816A3F39400FD0D52 = {
 			isa = PBXGroup;
 			children = (
+				EFB349C416A3F3A200FD0D52 /* WebKit.framework */,
 				EFB349AD16A3F39400FD0D52 /* TestBrowser */,
 				EFB349A616A3F39400FD0D52 /* Frameworks */,
 				EFB349A416A3F39400FD0D52 /* Products */,
@@ -197,6 +201,7 @@
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
